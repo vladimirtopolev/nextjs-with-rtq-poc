@@ -36,6 +36,7 @@ const HydradeContentLayout = ({
     return (
         <>
             <Head>
+                <meta name="google-site-verification" content="vaAaDH_-3EJGyAe78gu1ysTNYEhIkosQZytMoORLuvY" />
                 <title>{title}</title>
                 <meta property='og:title' content={title}></meta>
                 <meta property='og:type' content={type}/>
