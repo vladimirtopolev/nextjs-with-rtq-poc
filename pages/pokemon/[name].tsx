@@ -66,10 +66,11 @@ export const getServerSideProps = wrapper.getServerSideProps<PageMetaProps>(
     return {
       props: {
         title: data?.species.name || '',
-        image: data?.sprites.front_shiny || '',
-        description: 'Pockemon',
-        type: '',
-        url: '',
+        image:
+          'https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png',
+        description: `Pockemon ${data?.species.name || ''}`,
+        type: 'website',
+        url: 'https://metatags.io/',
         renderOnServer: renderOnServer,
       },
     };
