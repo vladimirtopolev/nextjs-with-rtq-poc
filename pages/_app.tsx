@@ -37,6 +37,7 @@ const HydradeContentLayout = ({
         <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+                <meta name="msvalidate.01" content="89BD029DD5EC8184F0505CBB28C0A7D8" />
                 <meta name="google-site-verification" content="vaAaDH_-3EJGyAe78gu1ysTNYEhIkosQZytMoORLuvY" />
                 <title>{title}</title>
                 <meta property='og:title' content={title}></meta>
